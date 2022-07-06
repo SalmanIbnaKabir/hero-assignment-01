@@ -234,11 +234,17 @@ header{
 
 
 footer{
-  height: 60px;
+  height: 150px;
   background-color: black;
+}
+footer h1{
+  font-family: 'Poppins', sans-serif;
+  color: red;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: 700;
 }
 footer p{
   color: white;
-  margin-top: 30px;
-  padding-top: 25px;
+  padding-top: 10px;
 }
