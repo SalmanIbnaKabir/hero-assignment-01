@@ -143,13 +143,84 @@ header{
   justify-items: center;
   width: 1000px;
   margin-top: 600px;
-  background-color: brown;
   position: relative;
   left: 13%;
+}
+.section-three div{
+  width: 48%;
+}
+.section-three h3{
+  font-size: 30px;
+  margin:20px 20px;
+}
+.section-three p{
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.section-three a{
+  text-decoration: none;
+  padding: 15px 30px;
+  background-color: orange;
+  margin-top: 20px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+
+.image-section img{
+  width: 92%;
+  margin-left: 40px;
+  border-radius: 5px;
 }
 
 
 
-.image-section img{
-  width: 100px;
+
+.get-update{
+  max-width: 1000px;
+  margin: auto;
+}
+.get-update h1{
+  text-align: center;
+  font-size: 30px;
+}
+.get-update p{
+  text-align: center;
+  width: 500px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+.get-update div{
+  width: 600px;
+  height: 140px;
+  background-color: rgba(255, 0, 0, 0.411);
+  margin: auto;
+}
+.get-update input{
+  padding: 15px 30px;
+  border: none;
+  margin: auto;
+  display: inline-block;
+  position: relative;
+  top: 60px;
+  left: 100px;
+  border-radius: 5px;
+}
+.get-update input[type=button]{
+  background-color: red;
+  color: white;
+  
+}
+
+
+footer{
+  height: 60px;
+  background-color: black;
+}
+footer p{
+  color: white;
+  margin-top: 30px;
+  padding-top: 25px;
 }
