@@ -1,0 +1,151 @@
+body{
+  margin:0;
+  font-family: 'Roboto Slab', serif;
+}
+header{
+  background-image: url(donate-today-main/images/donation13.jpg);  
+  background-repeat: no-repeat ;
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+
+}
+#center{
+  position: absolute;
+  width: 600px;
+  top: 20%;
+  left: 30%;
+  color: white;
+}
+#center h1,p{
+  text-align: center;
+}
+#center h1{
+  font-size:40px;
+  word-spacing: 20px;
+}
+#center p{
+  word-spacing: 3px;
+}
+#center a{
+  background-color:orange;
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: auto;
+  color:white;
+  position: relative;
+  left: 30%;
+  margin-top:20px
+}
+#center a:hover{
+  background-color:rgb(235, 155, 8) ;
+}
+
+.first-sec {
+  width: 700px;
+  margin: auto;
+  clear: both;
+}
+.first-sec h2{
+  text-align: center;
+  font-size: 30px;
+}
+.first-sec p{
+  text-align: center;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first-sec div span{
+  padding: 20px 40px;
+  font-size: 20px;
+  color: gray;
+}
+.first-sec input[type=text] {
+  display: block;
+  width:100%;
+  box-sizing: border-box;
+  border:none ;
+  padding:20px 20px;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+  outline-bttom:1px solid green ;
+
+
+}
+.first-sec input[type=button]{
+  display: inline-block;
+  background-color:orange;
+  padding: 15px 30px;
+  font-size: 16px;
+  border: none;
+  position:absolute;
+  left: 45%;
+  margin-top: 30px;
+  font-weight: bolder;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#border{
+  border:3px solid red;
+  color: red;
+  font-weight: bold;
+  background-color: rgba(255, 0, 0, 0.11);
+}
+
+
+.second-sec{
+  margin-top: 100px;
+  max-width: 1000px;
+  position: absolute;
+  left: 13%;
+  clear: both;
+}
+.second-sec h1{
+  text-align: center;
+  font-size: 30px;
+}
+.paragraph{
+  width: 400px;
+  position: relative;
+  left: 35%;
+
+}
+.flex-sec{
+  width: 33%;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.one {
+  background-color: rgba(255, 0, 0, 0.151);
+}
+.two {
+  background-color: rgba(0, 128, 0, 0.164);
+}
+.three {
+  background-color: rgba(255, 0, 0, 0.13);
+}
+.center-id-problem {
+  text-align: left;
+}
+
+
+
+
+.section-three{
+  display: flex;
+  clear: both;
+  width: 1000px;
+}
+
+
+.image-section img{
+  width: 100px;
+}
