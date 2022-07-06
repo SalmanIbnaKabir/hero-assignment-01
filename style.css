@@ -168,6 +168,7 @@ header{
   margin-top: 20px;
   border-radius: 5px;
   margin-left: 20px;
+  color: white;
 }
 
 
@@ -197,7 +198,7 @@ header{
 .get-update div{
   width: 600px;
   height: 140px;
-  background-color: rgba(255, 0, 0, 0.253);
+  background-color: rgba(255, 0, 0, 0.151);
   margin: auto;
 }
 .get-update input{
