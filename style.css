@@ -55,6 +55,7 @@ header{
 }
 .first-sec p{
   text-align: center;
+  color: gray;
 }
 .flex{
   display: flex;
@@ -72,7 +73,7 @@ header{
   box-sizing: border-box;
   border:none ;
   padding:20px 20px;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
   margin-top: 20px;
   border-bottom:1px solid gray ;
@@ -91,8 +92,11 @@ header{
   border-radius: 5px;
   cursor: pointer;
 }
+.first-sec input[type=button]:hover{
+  background-color: rgb(238, 158, 10);
+}
 #border{
-  border:3px solid red;
+  border:2px solid red;
   color: red;
   font-weight: bold;
   background-color: rgba(255, 0, 0, 0.11);
@@ -115,6 +119,7 @@ header{
   width: 400px;
   position: relative;
   left: 35%;
+  color: gray;
 
 }
 .flex-sec{
@@ -134,6 +139,7 @@ header{
 }
 .center-id-problem {
   text-align: left;
+  color: gray;
 }
 /* SECOND SECTION END*/
 
@@ -159,6 +165,7 @@ header{
   text-align: left;
   margin-left: 20px;
   margin-bottom: 40px;
+  color: gray;
 }
 
 .section-three a{
@@ -194,9 +201,10 @@ header{
   width: 500px;
   margin: auto;
   padding-bottom: 30px;
+  color: gray;
 }
 .get-update div{
-  width: 600px;
+  width: 650px;
   height: 140px;
   background-color: rgba(255, 0, 0, 0.151);
   margin: auto;
@@ -208,15 +216,19 @@ header{
   display: inline-block;
   position: relative;
   top: 50px;
-  left: 130px;
+  left: 140px;
   border-radius: 5px 0 0 5px ;
 }
 .get-update input[type=button]{
   background-color: red;
   color: white;
   margin-left: -3px;
-  border-radius: 0 5px 5px 0  ;
+  border-radius: 0 5px 5px 0 ;
+  cursor: pointer;
   
+}
+.get-update input[type=button]:hover{
+  background-color: rgb(240, 10, 10);
 }
 /* GET-UPDATE SECTION END*/
 
