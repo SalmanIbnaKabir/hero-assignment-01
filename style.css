@@ -46,7 +46,6 @@ header{
 .first-sec {
   width: 700px;
   margin: auto;
-  clear: both;
 }
 .first-sec h2{
   text-align: center;
@@ -105,7 +104,6 @@ header{
   max-width: 1000px;
   position: absolute;
   left: 13%;
-  clear: both;
 }
 .second-sec h1{
   text-align: center;
@@ -141,9 +139,15 @@ header{
 
 .section-three{
   display: flex;
-  clear: both;
+  justify-content: center;
+  justify-items: center;
   width: 1000px;
+  margin-top: 600px;
+  background-color: brown;
+  position: relative;
+  left: 13%;
 }
+
 
 
 .image-section img{
